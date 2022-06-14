@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import FilmList from "../components/FilmList";
+import FilmLink from '../components/FilmLink';
 
 
 const FilmReleases = () => {
@@ -37,6 +38,8 @@ const FilmReleases = () => {
         <>
             <h1>Upcoming Film Releases</h1>
             <FilmList films={films} />
+            <FilmLink />
+
         </>
 
     );

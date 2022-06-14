@@ -6,8 +6,10 @@ const FilmDetails = ({ film }) => {
     return (
 
         <>
-            <h3>{film.name}</h3>
-            <p>{film.url}</p>
+            {/* <h3>{film.name}</h3> */}
+            <a href={film.url}>{film.name}</a>
+
+
         </>
 
     );

@@ -15,6 +15,7 @@ const FilmList = ({ films }) => {
         <>
             {filmNodes}
         </>
+
     )
 
 }
