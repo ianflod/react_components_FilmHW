@@ -12,8 +12,9 @@ const FilmList = ({ films }) => {
 
     return (
 
-        { filmNodes }
-
+        <>
+            {filmNodes}
+        </>
     )
 
 }
