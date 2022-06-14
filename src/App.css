@@ -3,3 +3,13 @@
   font-size: large;
   margin: 10px;
 }
+
+.list {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  margin-left: 20px;
+  color:darkslateblue
+}

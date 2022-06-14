@@ -7,7 +7,7 @@ const FilmDetails = ({ film }) => {
 
         <>
             {/* <h3>{film.name}</h3> */}
-            <a href={film.url}>{film.name}</a>
+            <a href={film.url} className="list">{film.name}</a>
 
 
         </>
