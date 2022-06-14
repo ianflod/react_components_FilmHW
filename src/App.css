@@ -11,5 +11,10 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
   margin-left: 20px;
-  color:darkslateblue
+  color: darkslateblue;
+  border: 2px solid gray;
+  width: 40%;
+  margin: 10px;
+  background-color: rgb(240, 238, 238);
+
 }
