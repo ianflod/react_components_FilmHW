@@ -1,3 +1,10 @@
+.main {
+  margin: 30px;
+  border: 2px solid gray;
+  width: 50%;
+  background-color: aliceblue;
+}
+
 .button {
   background-color: cadetblue;
   font-size: large;
@@ -10,10 +17,10 @@
   padding: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
-  margin-left: 20px;
+  margin-left: 50px;
   color: darkslateblue;
   border: 2px solid gray;
-  width: 40%;
+  width: 70%;
   margin: 10px;
   background-color: rgb(240, 238, 238);
 

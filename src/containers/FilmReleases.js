@@ -35,12 +35,13 @@ const FilmReleases = () => {
     )
 
     return (
-        <>
+        <div className='main'>
             <h1>Upcoming Film Releases</h1>
             <FilmList films={films} />
             <FilmLink />
+        </div>
 
-        </>
+        
 
     );
 }
