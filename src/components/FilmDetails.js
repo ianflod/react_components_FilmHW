@@ -6,8 +6,8 @@ const FilmDetails = ({ film }) => {
     return (
 
         <>
-            {/* <h3>{film.name}</h3> */}
-            <a href={film.url} className="list">{film.name}</a>
+
+            <a href={film.url} target='_blank' className="list">{film.name}</a>
 
 
         </>

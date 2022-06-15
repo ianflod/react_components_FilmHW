@@ -5,6 +5,10 @@
   background-color: aliceblue;
 }
 
+.heading {
+  margin-left: 10px;
+}
+
 .button {
   background-color: cadetblue;
   font-size: large;

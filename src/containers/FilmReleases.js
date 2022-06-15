@@ -5,7 +5,7 @@ import FilmLink from '../components/FilmLink';
 
 const FilmReleases = () => {
 
-    const [films, setFilms] = useState([
+    const [films, setFilms] = useState([  //DONT forget the setFilms variable.  It allows REACT to set the state after changes 
         {
             id: 1,
             name: "Spider-Man: Into the Spider-Verse",
@@ -36,12 +36,12 @@ const FilmReleases = () => {
 
     return (
         <div className='main'>
-            <h1>Upcoming Film Releases</h1>
+            <h1 className='heading'>Upcoming Film Releases</h1>
             <FilmList films={films} />
             <FilmLink />
         </div>
 
-        
+
 
     );
 }
